@@ -2,6 +2,7 @@
     color: white;
     font-weight: bold;
     box-sizing: border-box;
+    /* font-family: 'Nunito', sans-serif; */
 }
 html, body {
     margin: 0;
@@ -12,8 +13,8 @@ html, body {
 
 .header-nav {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     background-color: #00baf0;
     background: linear-gradient(to left, #f0452f, #ec1b0c);
     color: #fff;
@@ -71,10 +72,77 @@ html, body {
     margin-top: 0px;
     transform: rotate(-405deg);
 }
+
+/* CAROUSSEL */
+
+.caroussel__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/*  MAIN  */
+
+.main {
+    background-image: url("../pictures/bg-1500-05-20.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.counter {
+    font-size: 3em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.description {
+    font-size: 1.2em;
+    text-align: center;
+    width: 60%;
+}
+
+/*  FOOTER  */
+
+.footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__description {
+    color: black;
+}
+
+.social-link {
+    display: flex;
+}
+
+.social-link__item {
+    padding: 0.4em;
+}
+
 @media (max-width: 900px) {
     .menu-button-container {
         display: flex;
-   }
+    }
+   .header-nav {
+    justify-content: space-between;
+}
     .menu {
         position: absolute;
         top: 0;
@@ -82,8 +150,6 @@ html, body {
         left: 0;
         flex-direction: column;
         width: 100%;
-        justify-content: center;
-        align-items: center;
    }
     #menu-toggle ~ .menu li {
         height: 0;
@@ -101,15 +167,20 @@ html, body {
     .menu > li {
         display: flex;
         justify-content: center;
+        align-items: center;
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
         color: white;
         background-color: #222;
+        z-index: 2;
    }
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #444;
    }
+   .counter {
+    font-size: 2em;
+}
 }
 
 @media (min-width: 1200px) {
@@ -118,8 +189,12 @@ html, body {
     }
 }
 
-/*  MAIN  */
-
-.main {
-    background-image: none;
+@media (min-width:1500px) {
+    .main {
+        margin: auto;
+        width: 90%;
+        background-image: url("../pictures/bg-2500-05-20.png");
+    }
 }
+
+

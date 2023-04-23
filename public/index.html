@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- JS -->
+    <script src="./assets/scripts/slider.js" defer></script>
+    <script src="./assets/scripts/counter.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!-- XTRAIL -->
     <title>XTrail Beaumont</title>
 </head>
 <body>
     <!-- HEADER -->
     <header class="header-nav">
+        <!-- LOGO -->
         <div>
-            <p>LOGO XTrail</p>
+            <p>LOGO</p>
         </div>
+        <!-- NAV -->
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
             <div class='menu-button'></div>
@@ -30,20 +41,53 @@
             <li class="list__item">Contact</li>
         </ul>
     </header>
+    <!-- BRAND CAROUSEL -->
+    <section class="caroussel__section">
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="./assets/pictures/logo-boulanger-res.png" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-ca-res.png" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-intersport-res.jpg" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-karcher-res.png" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-leclerc-res.png" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-renault-res.png" height="80" width="150" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/pictures/logo-st-yorre-res.png" height="80" width="150" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- MAIN -->
     <main class="main">
-        <h1>X-Trail</h1>
-        <p>Compteur</p>
+        <p class="counter" id="counter"></p>
+        <div class="title">
+            <p>LOGO</p>
+            <h1>X-Trail</h1>
+            <p>Le 14 janvier 2024</p>
+        </div>
+        <p class="description">Participez à l'X-Trail afin de découvrir la Forêt de Carnelle</p>
         <a href="#">S'inscrire à la newsletter X-Trail</a>
-        <p>Description X-Trail</p>
-        <p>Actualité</p>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-        </ul>
     </main>
-    <footer>
-        <p>Footer de X-Trail</p>
+    <footer class="footer">
+        <p class="footer__description">Retrouvez toutes nos actualités sur nos réseaux sociaux</p>
+        <ul class="social-link">
+            <li class="social-link__item"><a href="#"><img src="./assets/pictures/facebook.svg" alt="Facebook X-Trail" width="50px"></a></li>
+            <li class="social-link__item"><a href="#"><img src="./assets/pictures/insta.png" alt="Instagram X-Trail" width="50px"></a></li>
+            <li class="social-link__item"><a href="#"><img src="./assets/pictures/strava.png" alt="Strava X-Trail" width="50px"></a></li>
+        </ul>
+        <p class="footer__description">&#169; Copyright - X-Trail - 2023</p>
     </footer>
 </body>
 </html>
