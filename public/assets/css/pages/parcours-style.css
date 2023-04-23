@@ -32,6 +32,10 @@
     width: 100%;
 }
 
+.parcours__typo {
+    max-width: 100%;
+}
+
 .parcours__subtitle {
     text-decoration: underline;
     font-size: 1.2em;
