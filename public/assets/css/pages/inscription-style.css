@@ -12,19 +12,25 @@
     position: relative;
 }
 
-.inscription__tile {
+.inscription__title {
     font-size: 2.5em;
     margin: 0.2em;
+    text-decoration: underline;
 }
 
-.inscription__title {
+.inscription__subtitle {
     text-decoration: underline;
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
 }
 
 .inscription__description {
+    line-height: 1.5em;
+}
+
+.inscription__link {
+    text-align: left;
     line-height: 1.5em;
 }
 
@@ -40,10 +46,10 @@
     .inscription__description {
         line-height: 1.7em;
     }
-    .inscription__title {
-        font-size: 2.5em;
+    .inscription__link {
+        line-height: 1.7em;
     }
-    .inscription__tile {
+    .inscription__title {
         font-size: 3em;
     }
     .main {
@@ -52,5 +58,10 @@
         margin: auto;
         border-radius: 1.5em;    
         padding: 2em;
+    }
+    .inscription__subtitle {
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+        margin-top: 0.4em;
     }
 }

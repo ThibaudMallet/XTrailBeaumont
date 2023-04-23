@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.main__tile {
+.main__title {
     font-size: 2.5em;
     margin: 0.2em;
 }
@@ -57,7 +57,7 @@
         margin-bottom: 0.4em;
         margin-top: 0.4em;
     }
-    .main__tile {
+    .main__title {
         font-size: 3em;
         margin: 0.5em;
     }
