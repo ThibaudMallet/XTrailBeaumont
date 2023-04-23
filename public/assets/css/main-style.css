@@ -1,0 +1,9 @@
+/* IMPORT GLOBAL STYLE */
+@import url('./partials/reset.css');
+
+/* IMPORT HEADER AND FOOTER */
+@import url('./partials/header.css');
+@import url('./partials/footer.css');
+
+/* IMPORT CAROUSSEL STYLE */
+@import url('./partials/caroussel.css');

@@ -1,0 +1,50 @@
+/*  MAIN  */
+
+.main {
+    background-image: url("../../pictures/bg-1500-05-20.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.main > a {
+    text-decoration: none;
+    color: white;
+}
+
+.counter {
+    font-size: 2em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.description {
+    font-size: 1.2em;
+    text-align: center;
+    width: 60%;
+}
+
+@media (min-width: 900px) {
+   .counter {
+    font-size: 3em;
+    }
+}
+
+@media (min-width:1500px) {
+    .main {
+        margin: auto;
+        width: 90%;
+        background-image: url("../pictures/bg-2500-05-20.png");
+    }
+}

@@ -1,0 +1,56 @@
+.main {
+    padding: 0.5em;
+    text-align: center;
+    height: calc(100% - 350px);
+    width: 90%;
+    margin: auto;
+    background-color: #f07362;
+    border: 1px solid #f07362;
+    border-radius: 0.5em;    
+    padding: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+.inscription__tile {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+.inscription__title {
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.inscription__description {
+    line-height: 1.5em;
+}
+
+.inscription__info {
+    position: absolute;
+    padding-bottom: 0.5em;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .inscription__description {
+        line-height: 1.7em;
+    }
+    .inscription__title {
+        font-size: 2.5em;
+    }
+    .inscription__tile {
+        font-size: 3em;
+    }
+    .main {
+        padding: 2em;
+        width: 80%;
+        margin: auto;
+        border-radius: 1.5em;    
+        padding: 2em;
+    }
+}

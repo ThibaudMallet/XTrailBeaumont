@@ -1,0 +1,72 @@
+/*  MAIN  */
+
+.main {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.main__tile {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+.parcours {
+    background-color: #f07362;
+    border: 1px solid #f07362;
+    border-radius: 0.5em;    
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.parcours__title {
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.parcours__description {
+    line-height: 1.2em;
+}
+
+.parcours__img {
+    width: 100%;
+}
+
+.parcours__subtitle {
+    text-decoration: underline;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+
+@media (min-width: 900px) {
+    .parcours {
+        border-radius: 1.5em;    
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+    .parcours__description {
+        line-height: 1.5em;
+    }
+    .parcours__title {
+        font-size: 2.5em;
+    }
+    .parcours__subtitle {
+        text-decoration: underline;
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+        margin-top: 0.4em;
+    }
+    .main__tile {
+        font-size: 3em;
+        margin: 0.5em;
+    }
+    .parcours__img {
+        max-width: 1000px;
+    }
+    .main {
+        padding: 2em;
+        width: 80%;
+        margin: auto;
+    }
+}

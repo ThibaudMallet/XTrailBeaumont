@@ -1,14 +1,3 @@
-* {
-    color: white;
-    font-weight: bold;
-    box-sizing: border-box;
-    /* font-family: 'Nunito', sans-serif; */
-}
-html, body {
-    margin: 0;
-    height: 100%;
-}
-
 /*  HEADER  */
 
 .header-nav {
@@ -31,6 +20,10 @@ html, body {
 .list__item {
     margin: 0 1rem;
     overflow: hidden;
+}
+.list__item > a {
+    text-decoration: none;
+    color: white;
 }
 .menu-button-container {
     display: none;
@@ -73,69 +66,6 @@ html, body {
     transform: rotate(-405deg);
 }
 
-/* CAROUSSEL */
-
-.caroussel__section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
-
-/*  MAIN  */
-
-.main {
-    background-image: url("../pictures/bg-1500-05-20.png");
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-}
-
-.counter {
-    font-size: 3em;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 2.5em;
-}
-
-.description {
-    font-size: 1.2em;
-    text-align: center;
-    width: 60%;
-}
-
-/*  FOOTER  */
-
-.footer {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer__description {
-    color: black;
-}
-
-.social-link {
-    display: flex;
-}
-
-.social-link__item {
-    padding: 0.4em;
-}
-
 @media (max-width: 900px) {
     .menu-button-container {
         display: flex;
@@ -146,7 +76,7 @@ html, body {
     .menu {
         position: absolute;
         top: 0;
-        margin-top: 100px;
+        margin-top: 132px;
         left: 0;
         flex-direction: column;
         width: 100%;
@@ -180,21 +110,12 @@ html, body {
    }
    .counter {
     font-size: 2em;
+    }
 }
-}
+
 
 @media (min-width: 1200px) {
     .list__item {
         font-size: 1.3em;
     }
 }
-
-@media (min-width:1500px) {
-    .main {
-        margin: auto;
-        width: 90%;
-        background-image: url("../pictures/bg-2500-05-20.png");
-    }
-}
-
-
