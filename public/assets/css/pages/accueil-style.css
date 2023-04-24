@@ -10,12 +10,12 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: var(--main-white);
 }
 
 .main > a {
     text-decoration: none;
-    color: white;
+    color: var(--main-white);
 }
 
 .counter {

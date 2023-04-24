@@ -4,8 +4,8 @@
     height: calc(100% - 350px);
     width: 90%;
     margin: auto;
-    background-color: #f07362;
-    border: 1px solid #f07362;
+    background-color: var(--main-white);
+    border: 0.5em solid var(--main-main-card);
     border-radius: 0.5em;    
     padding: 1em;
     margin-bottom: 0.5em;

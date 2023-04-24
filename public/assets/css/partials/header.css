@@ -1,12 +1,25 @@
+/* DEFINE COLORS */
+
+:root {
+    --main-dark-red: #A10702;
+    --main-light-red: #DB2B39;
+    --main-light-dark: #444;
+    --main-middle-dark: #333;
+    --main-dark-dark: #222;
+    --main-white: #fff;
+    --main-black: #000;
+    --main-main-card: #CACF85;
+    --main-form-color: #60712F;
+}
+
 /*  HEADER  */
 
 .header-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00baf0;
-    background: linear-gradient(to left, #f0452f, #ec1b0c);
-    color: #fff;
+    background: linear-gradient(to left, var(--main-light-red), var(--main-dark-red));
+    color: var(--main-white);
     height: 100px;
     padding: 1em;
 }
@@ -23,7 +36,7 @@
 }
 .list__item > a {
     text-decoration: none;
-    color: white;
+    color: var(--main-white);
 }
 .menu-button-container {
     display: none;
@@ -39,7 +52,7 @@
 }
 .menu-button, .menu-button::before, .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: var(--main-white);
     position: absolute;
     height: 4px;
     width: 30px;
@@ -59,7 +72,7 @@
     transform: rotate(405deg);
 }
 #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
+    background: var(--main-middle-dark);
 }
 #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
@@ -89,7 +102,7 @@
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
    }
     #menu-toggle:checked ~ .menu li {
-        border: 1px solid #333;
+        border: 1px solid var(--main-middle-dark);
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -101,12 +114,12 @@
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
-        color: white;
-        background-color: #222;
+        color: var(--main-white);
+        background-color: var(--main-dark-dark);
         z-index: 2;
    }
     .menu > li:not(:last-child) {
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid var(--main-light-dark);
    }
    .counter {
     font-size: 2em;
