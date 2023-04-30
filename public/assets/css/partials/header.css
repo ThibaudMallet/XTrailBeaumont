@@ -3,13 +3,9 @@
 :root {
     --main-dark-red: #9A0404;
     --main-light-red: #FF0000;
-    --main-light-dark: #444;
-    --main-middle-dark: #333;
-    --main-dark-dark: #0D0C0C;
     --main-white: #fff;
-    --main-black: #000;
-    --main-main-card: #CACF85;
-    --main-form-color: #60712F;
+    --main-light-dark: #0D0C0C;
+    --main-dark-black: #000;
 }
 
 /*  HEADER  */
@@ -72,7 +68,7 @@
     transform: rotate(405deg);
 }
 #menu-toggle:checked + .menu-button-container .menu-button {
-    background: var(--main-middle-dark);
+    background: var(--main-light-dark);
 }
 #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
@@ -102,7 +98,7 @@
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
    }
     #menu-toggle:checked ~ .menu li {
-        border: 1px solid var(--main-middle-dark);
+        border: 1px solid var(--main-light-dark);
         height: 2.5em;
         padding: 0.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);

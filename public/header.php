@@ -24,25 +24,25 @@
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <img src="./assets/pictures/logo-boulanger-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/boulanger.svg" height="80" width="150" alt="logo de Boulanger" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-ca-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/creditagricole.png" height="80" width="130" alt="logo du Credit Agricole" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-intersport-res.jpg" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/intersport.svg" height="80" width="150" alt="logo d'Intersport" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-karcher-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/karcher.svg" height="80" width="150" alt="logo de Karcher" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-leclerc-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/leclerc.png" height="80" width="150" alt="logo de Leclerc" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-renault-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/renault.svg" height="80" width="150" alt="logo de Renault" />
             </div>
             <div class="slide">
-                <img src="./assets/pictures/logo-st-yorre-res.png" height="80" width="150" alt="" />
+                <img src="./assets/pictures/logo/st-yorre.png" height="80" width="150" alt="logo de St-Yorre" />
             </div>
         </div>
     </div>

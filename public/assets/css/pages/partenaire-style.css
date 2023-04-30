@@ -27,11 +27,14 @@
 
 .partenaire__galerie {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-bottom: 1em 0 1em 2em;
 }
 
-.galerie__photo {
-    width: 100%;
+.galerie__photo > img {
+    width: 60vw;
 }
 
 @media (min-width: 900px) {
@@ -52,14 +55,16 @@
     .partenaire__galerie {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
-    .galerie__photo {
-        width: 50%;
+    .galerie__photo > img {
+        width: 30vw;
     }
 }
 
 @media (min-width: 1200px) {
-    .galerie__photo {
-        width: 33%;
+    .galerie__photo > img {
+        width: 22vw;
+        max-width: 300px;
     }
 }

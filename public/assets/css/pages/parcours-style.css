@@ -18,7 +18,7 @@
 
 .parcours {
     background-color: var(--main-white);
-    border: 0.5em solid var(--main-main-card);
+    border: 0.5em solid var(--main-dark-red);
     border-radius: 0.5em;    
     padding: 0.5em;
     margin: 0.5em;

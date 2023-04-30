@@ -28,14 +28,14 @@
         <h1 class="partenaire__title">Nos partenaires</h1>
         <p class="partenaire__description">Un grand merci à nos partenaires sans qui cette aventure ne pourrait se réaliser.</p>
         <section class="partenaire__galerie">
-            <div class="galerie__photo"><img src="./assets/pictures/logo-boulanger-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-ca-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-intersport-res.jpg" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-karcher-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-leclerc-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-renault-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-st-yorre-res.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo-boulanger-res.png" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/boulanger.svg" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/creditagricole.png" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/intersport.svg" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/karcher.svg" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/leclerc.png" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/renault.svg" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/st-yorre.png" alt=""></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/boulanger.svg" alt=""></div>
         </section>
         <p class="partenaire__description">Merci à la mairie de Beaumont sur Oise, Nointel et Mours. Merci également aux services de gendarmerie, de la police municipale ainsi qu'aux pompiers de Beaumont sur Oise</p>
     </main>
