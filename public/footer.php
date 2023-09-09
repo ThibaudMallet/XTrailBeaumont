@@ -1,6 +1,6 @@
 <!-- FOOTER -->
 <footer class="footer">
-    <p class="footer__description">Retrouvez toutes nos actualités sur nos réseaux sociaux</p>
+    <p class="footer__description">Suivez toute l'actualité X-Trail sur les réseaux</p>
     <ul class="social-link">
         <li class="social-link__item"><a href="#"><img src="./assets/pictures/facebook.svg" alt="Facebook X-Trail" width="50px"></a></li>
         <li class="social-link__item"><a href="#"><img src="./assets/pictures/insta.png" alt="Instagram X-Trail" width="50px"></a></li>

@@ -1,7 +1,6 @@
 /*  FOOTER  */
 
 .footer {
-    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,4 +13,9 @@
 
 .social-link__item {
     padding: 0.4em;
+}
+
+.footer__description {
+    text-align: center;
+    margin: 0.3em;
 }

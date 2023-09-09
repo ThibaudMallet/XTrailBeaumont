@@ -12,12 +12,8 @@
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- XTRAIL -->
-    <title>XTrail Beaumont</title>
+    <title>X-Trail Beaumont</title>
 </head>
 <body>
 
@@ -25,14 +21,14 @@
 
     <!-- MAIN -->
     <main class="main">
-        <p class="counter" id="counter"></p>
         <div class="title">
-            <p>LOGO</p>
+            <img src="./assets/pictures/logo/logoXTrailRW.png" alt="logo XTrail" />
             <h1>X-Trail</h1>
-            <p>Le 14 janvier 2024</p>
+            <p class="title__date">Dimanche 14 janvier 2024</p>
+            <p class="counter" id="counter"></p>
         </div>
-        <p class="description">Participez à l'X-Trail afin de découvrir la Forêt de Carnelle</p>
-        <a href="#">S'inscrire à la newsletter X-Trail</a>
+        <p class="description">Reservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle</p>
+        <a href="./inscription.php">Je m'inscris</a>
     </main>
 
     <?php include ('./footer.php'); ?>

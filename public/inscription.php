@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <!-- XTRAIL -->
-    <title>XTrail Beaumont</title>
+    <title>X-Trail Beaumont</title>
 </head>
 <body>
 

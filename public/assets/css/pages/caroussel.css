@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
+    height: 100px;
 }
 
 .slide-track {
@@ -30,7 +30,7 @@
   }
   
   .slide-track {
-    animation: scroll 20s linear infinite;
+    animation: scroll 3s linear infinite;
     animation-direction: alternate;
 }
 
