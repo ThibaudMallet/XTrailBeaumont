@@ -28,14 +28,11 @@
         <h1 class="partenaire__title">Nos partenaires</h1>
         <p class="partenaire__description">Un grand merci à nos partenaires sans qui cette aventure ne pourrait se réaliser.</p>
         <section class="partenaire__galerie">
-            <div class="galerie__photo"><img src="./assets/pictures/logo/boulanger.svg" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/creditagricole.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/intersport.svg" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/karcher.svg" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/leclerc.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/renault.svg" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/st-yorre.png" alt=""></div>
-            <div class="galerie__photo"><img src="./assets/pictures/logo/boulanger.svg" alt=""></div>
+            <!-- <div class="galerie__photo"><img src="./assets/pictures/logo/boulanger.svg" alt=""></div>-->
+            <div class="galerie__photo"><img src="./assets/pictures/logo/beaumontSurOiseLogo.png" alt="logo de la mairie de Beaumont sur Oise"></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/intersport.svg" alt="logo d'Intersport"></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/c2p.jpeg" alt="logo de C2P"></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/deepSensMassage.jpeg" alt="logo de deepSensMassage"></div>
         </section>
         <p class="partenaire__description">Merci à la mairie de Beaumont sur Oise, Nointel et Mours. Merci également aux services de gendarmerie, de la police municipale ainsi qu'aux pompiers de Beaumont sur Oise</p>
     </main>

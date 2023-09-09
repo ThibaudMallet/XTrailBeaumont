@@ -22,7 +22,7 @@
     <!-- MAIN -->
     <main class="main">
         <div class="title">
-            <img src="./assets/pictures/logo/logoXTrailRW.png" alt="logo XTrail" />
+            <img src="./assets/pictures/logo/XTrail_Logo_RVB_tr.svg" alt="logo XTrail" />
             <h1>X-Trail</h1>
             <p class="title__date">Dimanche 14 janvier 2024</p>
             <p class="counter" id="counter"></p>

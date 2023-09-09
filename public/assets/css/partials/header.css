@@ -20,10 +20,10 @@
     padding: 1em;
 }
 .nav__logo--mobile {
-    height: 50px;
+    height: 85px;
 }
 .nav__logo--desktop {
-    height: 50px;
+    height: 85px;
 }
 .menu {
     display: flex;

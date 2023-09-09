@@ -1,8 +1,7 @@
 .main {
     padding: 0.5em;
     text-align: center;
-    min-height: calc(100% - 350px);
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: var(--main-white);
     border: 0.5em solid var(--main-dark-red);
@@ -13,19 +12,39 @@
 }
 
 .information__title {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 }
 
+.informationLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    font-size: 1.5em;
+}
+
+.reglement__subtitle {
+    text-align: left;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+
 .information__description {
     line-height: 1.5em;
+    font-weight: normal;
 }
 
 .information__reglement {
-    line-height: 1.5em;
-    margin-bottom: 0.5em;
+    line-height: 2em;
+    margin: 1em 0;
     text-align: left;
+    font-weight: normal;
+}
+
+.listItem__reglement {
+    font-weight: normal;
+    list-style: circle;
 }
 
 .information__resultat {
@@ -63,5 +82,11 @@
         margin: auto;
         border-radius: 1.5em;    
         padding: 2em;
+    }
+    .information__ou {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-left: 2em;
     }
 }

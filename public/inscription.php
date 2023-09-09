@@ -26,13 +26,25 @@
     <!-- MAIN -->
     <main class="main">
         <h1 class="inscription__title">Les inscriptions</h1>
-        <p class="inscription__description">Les inscriptions au X-Trail se déroule sur Adeorun, vous trouverez ci-dessous les liens utiles</p>
-        <h3 class="inscription__subtitle">Liste des liens</h3>
-        <p class="inscription__link">Lien pour l'inscription au 15kms : <a href="#">LIEN</a></p>
-        <p class="inscription__link">Lien pour l'inscription au 30kms : <a href="#">LIEN</a></p>
-        <p class="inscription__link">Liste des inscrits au 15kms : <a href="#">LIEN</a></p>
-        <p class="inscription__link">Liste des inscrits au 30kms : <a href="#">LIEN</a></p>
-        <p class="inscription__info">Date de dernière mise à jour : 23/04/2023</p>
+        <p class="inscription__description">Les inscriptions au X-Trail se déroule sur Adeorun, vous trouverez ci-dessous les liens utiles.</p>
+        <h3 class="inscription__subtitle">Date d'ouverture des inscriptions</h3>
+        <p class="inscription__date">le 30 septembre 2023</p>
+        <div class="BlocInscription">
+            <div class="leftBlocInscription">
+                <p class="inscription__link"><strong>15 km</strong> / 300 D+</p>
+                <p class="inscription__link">Tarif : 16€</p>
+                <p class="inscription__link"><a href="#">Parcours</a></p>
+                <p class="inscription__link"><a href="#">Inscription 15kms</a></p>
+                <p class="inscription__link"><a href="#">Liste des inscrits</a></p>
+            </div>
+            <div class="rightBlocInscription">
+                <p class="inscription__link"><strong>30 km</strong> / 800 D+</p>
+                <p class="inscription__link">Tarif : 32€</p>
+                <p class="inscription__link"><a href="#">Parcours</a></p>
+                <p class="inscription__link"><a href="#">Inscription 30kms</a></p>
+                <p class="inscription__link"><a href="#">Liste des inscrits</a></p>
+            </div>
+        </div>
     </main>
 
     <?php include ('./footer.php'); ?>

@@ -1,8 +1,7 @@
 .main {
     padding: 0.5em;
     text-align: center;
-    height: calc(100% - 350px);
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: var(--main-white);
     border: 0.5em solid var(--main-dark-red);
@@ -14,22 +13,52 @@
 
 .inscription__title {
     font-size: 2.5em;
-    margin: 0.2em;
+    margin-bottom: 0.5em;
 }
 
 .inscription__subtitle {
     font-size: 1.2em;
-    margin-bottom: 0.2em;
-    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.inscription__date {
+    text-decoration: underline;
+    color: grey;
+    font-style: italic;
 }
 
 .inscription__description {
+    text-align: left;
     line-height: 1.5em;
+    font-weight: normal;
+}
+
+.BlocInscription {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBlocInscription, .rightBlocInscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.rightBlocInscription {
+    border-top: 1px solid var(--main-dark-red);
+    padding-top: 2.5em;
 }
 
 .inscription__link {
     text-align: left;
     line-height: 1.5em;
+    font-weight: normal;
 }
 
 .inscription__info {
@@ -59,7 +88,26 @@
     }
     .inscription__subtitle {
         font-size: 1.5em;
-        margin-bottom: 0.4em;
-        margin-top: 0.4em;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+    }
+    .inscription__date {
+        font-size: 1.4em;
+    }
+    .leftBlocInscription, .rightBlocInscription {
+        font-size: 1.2em;
+        flex: 1;
+    }
+    .leftBlocInscription {
+        border-right: 1px solid var(--main-dark-red);
+    }
+    .BlocInscription {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .rightBlocInscription {
+        border: none;
+        padding-top: 0;
+
     }
 }
