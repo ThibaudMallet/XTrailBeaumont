@@ -1,3 +1,14 @@
+@keyframes fadeInBackground {
+    0% {
+      opacity: 0; /* Début de l'animation : opacité à 0 */
+      visibility: hidden; /* Début de l'animation : visibilité cachée */
+    }
+    100% {
+      opacity: 1; /* Fin de l'animation : opacité à 1 */
+      visibility: visible; /* Fin de l'animation : visibilité visible */
+    }
+  }
+
 .main {
     padding: 0.5em;
     text-align: center;
@@ -26,6 +37,13 @@
     text-align: left;
 }
 
+.afficheImg {
+    opacity: 0;
+    animation: fadeInBackground 0.75s ease 0.75s forwards;
+    width: 80%;
+    padding: 1em;
+}
+
 
 @media (min-width: 900px) {
     .galerie__description {
@@ -33,6 +51,9 @@
     }
     .galerie__title {
         font-size: 2.5em;
+    }
+    .afficheImg {
+        width: 40%;
     }
     .main {
         padding: 2em;

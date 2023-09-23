@@ -1,3 +1,40 @@
+/* KEYFRAMES */
+
+@keyframes fadeInBackground {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+}
+
+/* Animation pour la section de gauche */
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%); /* Déplacez la section vers la gauche de l'écran */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Amenez la section à sa position finale */
+    }
+  }
+  
+  /* Animation pour la section de droite */
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%); /* Déplacez la section vers la droite de l'écran */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Amenez la section à sa position finale */
+    }
+  }
+
 /*  MAIN  */
 
 .main {
@@ -10,9 +47,26 @@
     flex-direction: column;
 }
 
+.parcours-15 {
+    opacity: 0;
+    animation: slideInFromLeft 1s ease 1s forwards;
+}
+
+.parcours-30 {
+    opacity: 0;
+    animation: slideInFromRight 1s ease 1s forwards;
+}
+
 .main__title {
+    animation: fadeInBackground 0.5s ease 0.5s forwards;
+    opacity: 0;
     font-size: 2.5em;
     margin: 0.2em;
+}
+
+.parcours__carnelle {
+    animation: fadeInBackground 0.5s ease 0.5s forwards;
+    opacity: 0;
 }
 
 .parcours {
@@ -34,6 +88,7 @@
 
 .parcours__img {
     width: 100%;
+    margin: 1em 0;
 }
 
 .parcours__typo {
@@ -54,6 +109,7 @@
         border-radius: 1.5em;    
         padding: 2em;
         margin-bottom: 2em;
+        width: 50%;
     }
     .parcours__description {
         line-height: 1.5em;

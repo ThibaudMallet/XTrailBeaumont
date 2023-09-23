@@ -15,7 +15,7 @@ let x = setInterval(function() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+  document.getElementById("counter").innerHTML = days + "j " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
 }, 1000);
@@ -28,6 +28,6 @@ function showDistance() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+  document.getElementById("counter").innerHTML = days + "j " + hours + "h "
   + minutes + "m " + seconds + "s ";
 }

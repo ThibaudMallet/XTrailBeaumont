@@ -11,7 +11,7 @@
     <script src="./assets/scripts/slider.js" defer></script>
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.svg">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
     <!-- MAIN -->
     <main class="main">
         <h1 class="inscription__title">Les inscriptions</h1>
-        <p class="inscription__description">Les inscriptions au X-Trail se déroule sur Adeorun, vous trouverez ci-dessous les liens utiles.</p>
+        <p class="inscription__description">Les inscriptions au X-Trail se font sur Adeorun, vous trouverez ci-dessous les liens utiles.</p>
         <h3 class="inscription__subtitle">Date d'ouverture des inscriptions</h3>
         <p class="inscription__date">le 30 septembre 2023</p>
         <div class="BlocInscription">

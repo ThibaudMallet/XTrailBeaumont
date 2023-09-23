@@ -1,4 +1,19 @@
+/* KEYFRAMES */
+
+@keyframes fadeInUpText {
+    0% {
+      opacity: 0; /* Début de l'animation : opacité à 0 */
+      transform: translateY(50px); /* Début de l'animation : déplacer vers le bas de 50 pixels */
+    }
+    100% {
+      opacity: 1; /* Fin de l'animation : opacité à 1 */
+      transform: translateY(0); /* Fin de l'animation : revenir à la position d'origine */
+    }
+}
+
 .main {
+    opacity: 0;
+    animation: fadeInUpText 0.5s ease 0.5s forwards; 
     padding: 0.5em;
     text-align: center;
     width: 80%;
@@ -17,11 +32,28 @@
     margin-top: 0.5em;
 }
 
-.informationLinks {
+.informationLinksDivMobile {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 1em 0;
     font-size: 1.5em;
+}
+
+.informationLinksDivMobile > p {
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+}
+
+.informationsLinksMobileIcons {
+    width: 40px;
+    height: 40px;
+}
+
+.informationsLinksMobile {
+    text-decoration: none;
+    padding: 0.8em;
 }
 
 .reglement__subtitle {
@@ -88,5 +120,8 @@
         width: 100%;
         text-align: left;
         padding-left: 2em;
+    }
+    .informationLinksDivMobile {
+        display: none;
     }
 }

@@ -11,7 +11,7 @@
     <script src="./assets/scripts/slider.js" defer></script>
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.svg">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,30 +26,32 @@
     <!-- MAIN -->
     <main class="main">
         <h1 class="main__title">Les parcours</h1>
+        <section class="parcours__carnelle">
+            <p class="parcours__description">Les 2 parcours se déroulent dans la magnifique forêt de Carnelle.</p>
+            <img class="parcours__img" src="./assets/pictures/carnelle.jpeg" alt="Map de la forêt de Carnelle">
+        </section>
         <div class="parcours__card">
             <section class="parcours parcours-15">
-                <h3 class="parcours__title">Le Petit : 15kms / 290D+</h3>
+                <h3 class="parcours__title">Le Petit : 15kms / 300D+</h3>
                 <p class="parcours__description">Ce parcours est destiné à ceux qui souhaitent se challenger tout en découvrant une partie de la forêt de Carnelle</p>
-                <h5 class="parcours__subtitle">Tracé</h5>
-                <img class="parcours__img" src="./assets/pictures/parcours15.jpg" alt="Parcours XTrail 15 kilomètres">
-                <h5 class="parcours__subtitle">Typographie</h5>
+                <!-- <h5 class="parcours__subtitle">Tracé</h5> -->
+                <!-- <img class="parcours__img" src="./assets/pictures/parcours15.jpg" alt="Parcours XTrail 15 kilomètres"> -->
+                <!-- <h5 class="parcours__subtitle">Typographie</h5> -->
                 <img class="parcours__typo" src="./assets/pictures/typo-15.png" alt="Typographie parcours 15 kilomètres">
                 <h5 class="parcours__subtitle">Informations diverses</h5>
                 <p>Horaires - Départ : 9h00</p>
                 <p>Barrières - 10kms : 10h45</p>
-                <p>Informations importantes</p>
             </section>
             <section class="parcours parcours-30">
-                <h3 class="parcours__title">Le Grand : 30kms / 500D+</h3>
-                <p class="parcours__description">Ce parcours est destiné aux gourmands d'efforts qui souhaitent se mesurer aux difficultés présentent en forêt de Carnelle</p>
-                <h5 class="parcours__subtitle">Tracé</h5>
-                <img class="parcours__img" src="./assets/pictures/parcours30.jpg" alt="Parcours XTrail 30 kilomètres">
-                <h5 class="parcours__subtitle">Typographie</h5>
+                <h3 class="parcours__title">Le Grand : 30kms / 800D+</h3>
+                <p class="parcours__description">Ce parcours est destiné aux gourmands d'efforts qui souhaitent se mesurer aux difficultés présentes en forêt de Carnelle</p>
+                <!-- <h5 class="parcours__subtitle">Tracé</h5> -->
+                <!-- <img class="parcours__img" src="./assets/pictures/parcours30.jpg" alt="Parcours XTrail 30 kilomètres"> -->
+                <!-- <h5 class="parcours__subtitle">Typographie</h5> -->
                 <img class="parcours__typo" src="./assets/pictures/typo-30.png" alt="Typographie parcours 30 kilomètres">
                 <h5 class="parcours__subtitle">Informations diverses</h5>
                 <p>Horaires - Départ : 8h30</p>
                 <p>Barrières - 10kms : 10h00 - 20kms : 11h30</p>
-                <p>Informations importantes</p>
             </section>
         </div>
     </main>

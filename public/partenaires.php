@@ -11,7 +11,7 @@
     <script src="./assets/scripts/slider.js" defer></script>
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.svg">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
             <div class="galerie__photo"><img src="./assets/pictures/logo/c2p.jpeg" alt="logo de C2P"></div>
             <div class="galerie__photo"><img src="./assets/pictures/logo/deepSensMassage.jpeg" alt="logo de deepSensMassage"></div>
         </section>
-        <p class="partenaire__description">Merci à la mairie de Beaumont sur Oise, Nointel et Mours. Merci également aux services de gendarmerie, de la police municipale ainsi qu'aux pompiers de Beaumont sur Oise</p>
+        <p class="partenaire__description">Merci aux mairies de Beaumont sur Oise, Nointel et Mours. Merci également aux services de gendarmerie, de la police municipale ainsi qu'aux pompiers de Beaumont sur Oise</p>
     </main>
 
     <?php include ('./footer.php'); ?>

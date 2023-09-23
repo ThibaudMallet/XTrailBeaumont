@@ -11,7 +11,7 @@
     <script src="./assets/scripts/slider.js" defer></script>
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.svg" sizes="64x64">
     <!-- XTRAIL -->
     <title>X-Trail Beaumont</title>
 </head>
@@ -22,12 +22,12 @@
     <!-- MAIN -->
     <main class="main">
         <div class="title">
-            <img src="./assets/pictures/logo/XTrail_Logo_RVB_tr.svg" alt="logo XTrail" />
+            <!-- <img src="./assets/pictures/logo/XTrail_Logo_RVB_rouge.svg" alt="logo XTrail" /> -->
             <h1>X-Trail</h1>
             <p class="title__date">Dimanche 14 janvier 2024</p>
             <p class="counter" id="counter"></p>
         </div>
-        <p class="description">Reservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle</p>
+        <p class="description">Réservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle</p>
         <a href="./inscription.php">Je m'inscris</a>
     </main>
 

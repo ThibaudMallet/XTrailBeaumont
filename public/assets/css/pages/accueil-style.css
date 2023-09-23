@@ -1,10 +1,42 @@
+/* KEYFRAMES */
+
+@keyframes fadeInBackground {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes fadeInUpText {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    90% {
+        opacity: 0.9;
+        transform: translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
 /*  MAIN  */
 
 .main {
-    background-image: url("../../pictures/bg-2500-05-20.png");
+    opacity: 0;
+    visibility: hidden;
+    animation: fadeInBackground 0.5s ease 0.5s forwards;
+    background-image: url("../../pictures/image-trail.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -14,6 +46,8 @@
 }
 
 .main > a {
+    opacity: 0;
+    animation: fadeInUpText 1.5s ease 1.5s forwards;
     background-color: var(--main-light-red);
     text-decoration: none;
     color: var(--main-white);
@@ -23,8 +57,11 @@
 }
 
 .counter {
+    opacity: 0;
+    animation: fadeInUpText 1s ease 1s forwards;
     font-size: 1.2em;
     padding: 0.3em;
+    text-shadow: 2px 2px black;
 }
 
 .title {
@@ -38,6 +75,13 @@
 .title > img {
     width: 50%;
     padding: 0.3em;
+    margin-bottom: 2em;
+}
+
+.title__date {
+    opacity: 0;
+    animation: fadeInUpText 0.75s ease 0.75s forwards;
+    text-shadow: 2px 2px black;
 }
 
 h1 {
@@ -45,11 +89,14 @@ h1 {
 }
 
 .description {
+    opacity: 0;
+    animation: fadeInUpText 1.25s ease 1.25s forwards;
     font-size: 1.5em;
     line-height: 1.2em;
     text-align: center;
     width: 60%;
     padding: 0.3em;
+    text-shadow: 2px 2px black;
 }
 
 @media (min-width: 900px) {

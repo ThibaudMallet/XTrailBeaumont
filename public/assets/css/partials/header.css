@@ -18,12 +18,18 @@
     color: var(--main-white);
     height: 80px;
     padding: 1em;
+    position: fixed;
+    width: calc(100% - 32px);
+    z-index: 2;
 }
 .nav__logo--mobile {
     height: 85px;
 }
 .nav__logo--desktop {
     height: 85px;
+}
+.caroussel__section {
+    padding-top: 112px;
 }
 .menu {
     display: flex;
@@ -40,6 +46,11 @@
     font-weight: 700;
 }
 .list__item > a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.list__subItem > a{
     text-decoration: none;
     color: var(--main-white);
 }
@@ -90,6 +101,8 @@
 #logo__desktop {
     display: block;
 }
+
+
 
 @media (max-width: 1150px) {
     .menu-button-container {
@@ -144,9 +157,50 @@
     }
 }
 
+    /* Styles pour le sous-menu caché */
+    .drop-menu {
+        display: none;
+        position: absolute;
+        background: linear-gradient(to left, #D30101, #DA0202);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1em;
+        padding-top: 1.5em;
+        padding-bottom: 0.7em;
+        transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+        opacity: 0;
+        transform: translateY(100px);
+        z-index: 1;
+        }
+
 
 @media (min-width: 1400px) {
     .list__item {
         font-size: 1.3em;
     }
+    /* DROP MENU */
+    
+    @keyframes slide-up {
+        0% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+
+        
+        /* Styles pour le lien parent au survol */
+        .list__item_dropMenu:hover .drop-menu {
+        display: block;
+        opacity: 1;
+        transform: translateY(100%);
+        animation: slide-up 0.5s ease forwards;
+        }
+        
+        /* Styles pour les éléments du sous-menu */
+        .drop-menu li {
+        margin: 0.5em 0;
+        list-style: none;
+        }
 }

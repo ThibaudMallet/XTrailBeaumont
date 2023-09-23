@@ -2,7 +2,7 @@
 <header class="header-nav">
     <!-- LOGO -->
     <div>
-        <a id="logo__mobile" href="./index.php"><img class="nav__logo--mobile" src="./assets/pictures/logo/XTrail_Logo_RVB_noir.svg" alt="logo XTrail" /></a>
+        <a id="logo__mobile" href="./index"><img class="nav__logo--mobile" src="./assets/pictures/logo/XTrail_Logo_RVB_noir.svg" alt="logo XTrail" /></a>
     </div>
     <!-- NAV -->
     <input id="menu-toggle" type="checkbox" />
@@ -10,14 +10,21 @@
         <div class='menu-button'></div>
     </label>
     <ul class="menu">
-        <li class="list__item"><a href="./index.php">Accueil</a></li>
-        <li class="list__item"><a href="./parcours.php">Parcours X-Trail</a></li>
-        <li class="list__item"><a href="./inscription.php">Inscriptions</a></li>
-        <li id="logo__desktop" class="list__item"><img class="nav__logo--desktop" src="./assets/pictures/logo/XTrail_Logo_RVB_noir.svg" alt="logo XTrail" /></li>
-        <li class="list__item"><a href="./information.php">Informations</a></li>
-        <li class="list__item"><a href="./galerie.php">Galerie</a></li>
-        <li class="list__item"><a href="./partenaire.php">Nos partenaires</a></li>
-        <!-- <li class="list__item"><a href="./contact.php">Contact</a></li> -->
+        <li class="list__item"><a href="./index">Accueil</a></li>
+        <li class="list__item"><a href="./parcours">Parcours X-Trail</a></li>
+        <li class="list__item"><a href="./inscriptions">Inscriptions</a></li>
+        <li id="logo__desktop"><img class="nav__logo--desktop" src="./assets/pictures/logo/XTrail_Logo_RVB_noir.svg" alt="logo XTrail" /></li>
+        <li class="list__item list__item_dropMenu">
+            <a href="./informations">Informations</a>
+            <ul class="drop-menu">
+                <li class="list__subItem"><a href="./informations?section=reglement">Réglement</a></li>
+                <li class="list__subItem"><a href="./informations?section=results">Résultats</a></li>
+                <li class="list__subItem"><a href="./informations?section=FAQ">FAQ</a></li>
+            </ul>
+        </li>
+        <li class="list__item"><a href="./galerie">Galerie</a></li>
+        <li class="list__item"><a href="./partenaires">Nos partenaires</a></li>
+        <!-- <li class="list__item"><a href="./contact">Contact</a></li> -->
     </ul>
 </header>
 <!-- BRAND CAROUSEL -->

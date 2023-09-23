@@ -1,3 +1,25 @@
+<?php
+// Vérifiez si un paramètre "section" a été passé dans l'URL
+if (isset($_GET['section'])) {
+    $section = $_GET['section'];
+    // En fonction de la section spécifiée, définissez l'ancre cible
+    $target_anchor = '';
+    switch ($section) {
+        case 'reglement':
+            $target_anchor = 'reglement__title';
+            break;
+        case 'results':
+            $target_anchor = 'results__title';
+            break;
+        case 'FAQ':
+            $target_anchor = 'FAQ__title';
+            break;
+        default:
+            break;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,7 +33,7 @@
     <script src="./assets/scripts/slider.js" defer></script>
     <script src="./assets/scripts/counter.js" defer></script>
     <!-- FAVICON -->
-    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/pictures/favicon.svg">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,13 +49,13 @@
     <main class="main">
         <h1 class="information__title">Les informations</h1>
         <p class="information__description">Vous retrouverez ici les informations concernant le X-Trail, notamment le réglement, les résultats ainsi que la FAQ</p>
-        <div class="informationLinks">
-            <p><a href="#reglement__title">Réglement</a></p>
-            <p><a href="#results__title">Résultats</a></p>
-            <p><a href="#FAQ__title">FAQ</a></p>
+        <div class="informationLinksDivMobile">
+            <p><img class="informationsLinksMobileIcons" src="./assets/pictures/juge.png" alt="Icone réglement"><a class="informationsLinksMobile" href="#reglement__title">Réglement</a></p>
+            <p><img class="informationsLinksMobileIcons" src="./assets/pictures/trophee.png" alt="Icone résultats"><a class="informationsLinksMobile" href="#results__title">Résultats</a></p>
+            <p><img id="reglement__title" class="informationsLinksMobileIcons" src="./assets/pictures/faq.png" alt="Icone faq"><a class="informationsLinksMobile" href="#FAQ__title">FAQ</a></p>
         </div>
         <div class="informationBloc">
-            <h3 class="information__title" id="reglement__title">Règlement X-trail</h3>
+            <h3 class="information__title">Règlement X-trail</h3>
             <h4 class="reglement__subtitle">Article 1 : <strong>Organisation</strong></h4>
             <p class="information__reglement">
                 Le X-Trail se déroulera dans la Forêt de Carnelle au départ de Beaumont sur Oise et est organisé
@@ -242,6 +264,41 @@
     </main>
 
     <?php include ('./footer.php'); ?>
+
+<!-- JavaScript pour faire défiler la page vers la section ciblée -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        <?php
+        // Si une ancre cible a été définie, faites défiler la page jusqu'à cette ancre
+        if (!empty($target_anchor)) {
+            echo "const navbarHeight = 100;"; // Hauteur de votre bandeau de navigation
+            echo "const targetElement = document.getElementById('{$target_anchor}');";
+            echo "if (targetElement) {";
+            echo "  const offset = targetElement.getBoundingClientRect().top - navbarHeight;";
+            echo "  window.scrollTo({ top: offset, behavior: 'smooth' });";
+            echo "}";
+        }
+        ?>
+    });
+
+// Sélectionnez tous les liens avec la classe "informationsLinksMobile"
+const mobileLinks = document.querySelectorAll('.informationsLinksMobile');
+
+// Ajoutez un gestionnaire d'événement clic à chaque lien
+mobileLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault(); // Empêchez le comportement de lien par défaut
+
+        const targetId = this.getAttribute('href').substring(1); // Obtenez l'ID cible
+        const targetElement = document.getElementById(targetId); // Sélectionnez l'élément cible
+
+        if (targetElement) {
+            const offset = targetElement.getBoundingClientRect().top - 80; // Ajustez la position de défilement
+            window.scrollTo({ top: offset, behavior: 'smooth' }); // Faites défiler la page vers la cible ajustée
+        }
+    });
+});
+</script>
 
 </body>
 </html>
