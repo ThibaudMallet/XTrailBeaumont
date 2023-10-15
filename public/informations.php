@@ -80,8 +80,8 @@ if (isset($_GET['section'])) {
             </p>
             <h4 class="reglement__subtitle">Article 3 : <strong>Conditions de participation</strong></h4>
             <p class="information__reglement">
-                3.1. Les courses sont ouvertes à toute personne âgée de 18 ans ou plus, le jour de la course,
-                quelle que soit sa nationalité.
+                3.1. Le 15kms est ouvert à toute personne née avant le 15/01/2006, le 30kms à toute personne
+                née avant le 01/01/2005, quelle que soit la nationalité des participants.
                 <br>
                 3.2. Chaque participant devra disposer d’une licence sportive en cours de validité (FFA, FFTRI)
                 ou d’un certificat médical de non contre-indication à la pratique de la course à pied en
@@ -105,9 +105,9 @@ if (isset($_GET['section'])) {
             <h4 class="reglement__subtitle">Article 5 : <strong>Dossards</strong></h4>
             <p class="information__reglement">
                 5.1 Le retrait des dossards se fera :
-                <p class="information__reglement">- Samedi 13 janvier, de 14 heures à 18 heures, au Magasin X (à préciser)</p>
+                <p class="information__reglement">- Samedi 13 janvier, de 14 heures à 18 heures, au magasin INTERSPORT, 1 Rue Marguerite Aumerle, 95340 Persan.</p>
                 <span class="information__ou">ou</span>
-                <p class="information__reglement">- Dimanche 14 janvier à partir de 7 h 00 à 7h45 au gymnase Henri      Michel, Avenue de la Division
+                <p class="information__reglement">- Dimanche 14 janvier à partir de 7 h 00 au gymnase Henri      Michel, Avenue de la Division
                     Leclerc 95260 Beaumont sur Oise.</p>   
                 <p class="information__reglement">
                     5.2 Les dossards seront remis en mains propres sur présentation d’une pièce d’identité.
@@ -129,13 +129,17 @@ if (isset($_GET['section'])) {
                 6.4. Les ravitaillements en eau seront situés à des points spécifiques du parcours et seront
                 clairement indiqués. Il est interdit de jeter des déchets en dehors des zones prévues à cet effet.
                 <br>
-                6.5 Barrières horaires : ?
+                6.5 Barrières horaires : 
+                <br>
+                - Sur le 15km : 11H30 à l'arrivée soit 6km/h de moyenne.
+                <br>
+                - Sur le 30km : 13H00 à l'arrivée soit 6,6km/h de moyenne.
                 <br>
                 6.6 Ravitaillements :
                 <br>
-                Le 15 km,se fera en autonomie
+                Le 15 km,se fera en autonomie, avec un ravitaillement à l'arrivée.
                 <br>
-                Pour le 30 km, un ravitaillement est prévu à mi-parcours ainsi qu’à l’arrivée (Solide + Liquide)
+                Pour le 30 km, un ravitaillement est prévu à mi-parcours ainsi qu’à l’arrivée (Solide + Liquide).
                 <br>
                 Les coureurs devront prévoir un ravitaillement personnel suffisant entre deux ravitaillements
                 prévus par l’organisation.
@@ -248,7 +252,7 @@ if (isset($_GET['section'])) {
                 16.4 Toute personne s’inscrivant à la course s’engage à prendre connaissance et à respecter le
                 règlement ci-dessus.
             </p>
-            <p class="information__reglement">Vous pouvez aussi retrouver le réglement en PDF ici : <a href="#">PDF</a></p>
+            <p class="information__reglement">Vous pouvez aussi retrouver le réglement en PDF ici : <a href="./assets/pdf/Réglement-X-TRAIL.pdf" target="_blank">PDF</a></p>
         </div>
         <h3 class="information__title" id="results__title">Les résultats</h3>
         <p class="information__resultat">Résultat 2024 : <a href="#">PDF</a></p>

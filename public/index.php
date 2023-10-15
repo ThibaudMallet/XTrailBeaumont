@@ -28,7 +28,7 @@
             <p class="counter" id="counter"></p>
         </div>
         <p class="description">Réservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle</p>
-        <a href="./inscription.php">Je m'inscris</a>
+        <a href="./inscriptions.php">Je m'inscris</a>
     </main>
 
     <?php include ('./footer.php'); ?>
