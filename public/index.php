@@ -22,14 +22,20 @@
     <!-- MAIN -->
     <main class="main">
         <div class="title">
-            <!-- <img src="./assets/pictures/logo/XTrail_Logo_RVB_rouge.svg" alt="logo XTrail" /> -->
             <h1>X-Trail</h1>
             <p class="title__date">Dimanche 14 janvier 2024</p>
             <p class="counter" id="counter"></p>
         </div>
-        <p class="description">Réservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle</p>
+        <p class="description">Réservez l'un des 600 dossards pour profiter d'un bon moment tous ensemble au coeur de la Forêt de Carnelle. Des kinés seront à l'arrivée pour vous détendre après votre effort.</p>
         <a href="./inscriptions.php">Je m'inscris</a>
+        <p class="description">Reconnaissance du 30km le 17/12/23.</p>
+        <!-- <p class="description">Reconnaissance du 30km le 17/12/23. Toutes les informations en suivant le lien ci-dessous</p>
+        <a href="https://www.strava.com/clubs/1189783/group_events/1516679" target="_blank">Rejoindre l'événement Strava</a> -->
     </main>
+    <div class="videoDiv">
+        <h2 class="subtitle">Trailer X-Trail</h2>
+        <iframe class="video" src="https://www.youtube.com/embed/_P3j7Nx_4pU" title="X-Trail - Beaumont sur Oise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
     <?php include ('./footer.php'); ?>
 

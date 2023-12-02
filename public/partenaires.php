@@ -33,6 +33,7 @@
             <div class="galerie__photo"><img src="./assets/pictures/logo/intersport.svg" alt="logo d'Intersport"></div>
             <div class="galerie__photo"><img src="./assets/pictures/logo/c2p.jpeg" alt="logo de C2P"></div>
             <div class="galerie__photo"><img src="./assets/pictures/logo/deepSensMassage.jpeg" alt="logo de deepSensMassage"></div>
+            <div class="galerie__photo"><img src="./assets/pictures/logo/blackeyes.png" alt="logo de blackEyes"></div>
         </section>
         <p class="partenaire__description">Merci aux mairies de Beaumont sur Oise, Nointel et Mours. Merci également aux services de gendarmerie, de la police municipale ainsi qu'aux pompiers de Beaumont sur Oise</p>
     </main>

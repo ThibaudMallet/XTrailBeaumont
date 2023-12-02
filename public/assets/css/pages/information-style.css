@@ -32,6 +32,17 @@
     margin-top: 0.5em;
 }
 
+.information__image {
+    width: 90%;
+    padding: 1em;
+}
+
+.information__acces {
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
 .informationLinksDivMobile {
     display: flex;
     flex-direction: column;
@@ -64,6 +75,7 @@
 
 .information__description {
     line-height: 1.5em;
+    text-align: left;
     font-weight: normal;
 }
 
@@ -123,5 +135,8 @@
     }
     .informationLinksDivMobile {
         display: none;
+    }
+    .information__image {
+        width: 60%;
     }
 }

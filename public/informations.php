@@ -48,12 +48,22 @@ if (isset($_GET['section'])) {
     <!-- MAIN -->
     <main class="main">
         <h1 class="information__title">Les informations</h1>
-        <p class="information__description">Vous retrouverez ici les informations concernant le X-Trail, notamment le réglement, les résultats ainsi que la FAQ</p>
-        <div class="informationLinksDivMobile">
+        <p class="information__description">Vous retrouverez ici les informations concernant le X-Trail, notamment le réglement, les résultats ainsi que la FAQ.</p>
+        <p class="information__description">Nous organisons des reconnaissances des parcours. Le dimanche 26 novembre 2023 pour le 15km, ainsi que le dimanche 17 décembre 2023 pour le 30 km. Veuillez retrouver toutes les informations concernant ces événements sur <a href="https://www.strava.com/clubs/1189783" target="_blank">Strava</a>.</p>
+        <p class="information__description">Le jour de la course, des kinés seront présents à l'arrivée pour vous soulager après votre effort.</p>
+        <h3 class="information__title">Plan d'accès</h3>
+        <img class="information__image" src="./assets/pictures/plan_acces.png" alt="Plan d'accès au départ">
+        <p class="information__acces">Voici les accès via les <a href="https://www.beaumontsuroise.fr/ma-ville/transports/" target="_blank">transports en commun</a>.</p>
+        <p class="information__acces">Beaumont <-> Beauvais : 35min via A16</p>
+        <p class="information__acces">Beaumont <-> Amiens : 65min via A16</p>
+        <p class="information__acces">Beaumont <-> Compiègne : 60min via D200</p>
+        <p class="information__acces">Beaumont <-> Cergy : 25min via N184</p>
+        <p class="information__acces">Veuillez privilégier le covoiturage si vous en avez la possibilité pour faciliter le stationnement sur place et protéger l'environnement.</p>
+        <!-- <div class="informationLinksDivMobile">
             <p><img class="informationsLinksMobileIcons" src="./assets/pictures/juge.png" alt="Icone réglement"><a class="informationsLinksMobile" href="#reglement__title">Réglement</a></p>
             <p><img class="informationsLinksMobileIcons" src="./assets/pictures/trophee.png" alt="Icone résultats"><a class="informationsLinksMobile" href="#results__title">Résultats</a></p>
             <p><img id="reglement__title" class="informationsLinksMobileIcons" src="./assets/pictures/faq.png" alt="Icone faq"><a class="informationsLinksMobile" href="#FAQ__title">FAQ</a></p>
-        </div>
+        </div> -->
         <div class="informationBloc">
             <h3 class="information__title">Règlement X-trail</h3>
             <h4 class="reglement__subtitle">Article 1 : <strong>Organisation</strong></h4>
@@ -61,7 +71,7 @@ if (isset($_GET['section'])) {
                 Le X-Trail se déroulera dans la Forêt de Carnelle au départ de Beaumont sur Oise et est organisé
                 par l’association Beaumont Triathlon, en collaboration avec la mairie de Beaumont sur Oise.
                 L’épreuve se déroulera le 14 janvier 2024 et comprendra deux courses distinctes : une course
-                de 15 km et une course de 30 km.
+                de 15 km et une course de 30 km. Pour toutes questions, n'hésitez pas à nous écrire à contact@x-trail.run.
             </p>
             <h4 class="reglement__subtitle">Article 2 : <strong>Parcours</strong></h4>
             <p class="information__reglement">
@@ -114,38 +124,40 @@ if (isset($_GET['section'])) {
                     En cas de retrait de dossards par un tiers, se munir de la photocopie d’une pièce d’identité du
                     coureur.
                 </p>
+                <p class="information__reglement">
+                    5.3 Le positionnement des dossards/puces jetables doit se situer à hauteur de la poitrine et nulle par ailleurs sans quoi les participants prennent le risque de ne pas avoir leur temps affiché.
+                </p>
             </p>
             <h4 class="reglement__subtitle">Article 6 : <strong>Déroulement de la course</strong></h4>
             <p class="information__reglement">
-                6.1. Les départs des courses sont fixés à 8 h 30 pour le 30 km et 9 h pour le 15 km.
+                6.1. Une consigne sera disponible sur place pour y déposer un sac avec des affaires de rechange.
                 <br>
-                6.2. Les participants devront se présenter au moins 10 minutes avant le départ, munis de leur
+                6.2. Les départs des courses sont fixés à 8 h 30 pour le 30 km et 9 h pour le 15 km.
+                <br>
+                6.3. Les participants devront se présenter au moins 10 minutes avant le départ, munis de leur
                 dossard.
                 <br>
-                6.3. Le parcours sera balisé et des signaleurs seront présents à des points stratégiques pour
+                6.4. Le parcours sera balisé et des signaleurs seront présents à des points stratégiques pour
                 orienter les participants. Tout participant sortant du parcours balisé sera automatiquement
                 disqualifié.
                 <br>
-                6.4. Les ravitaillements en eau seront situés à des points spécifiques du parcours et seront
-                clairement indiqués. Il est interdit de jeter des déchets en dehors des zones prévues à cet effet.
+                6.5. Les ravitaillements :
                 <br>
-                6.5 Barrières horaires : 
+                Le 15 km se fera en autonomie avec un ravitaillement à l'arrivée (Solide + Liquide).
+                <br>
+                Pour le 30 km, un ravitaillement est prévu à mi-parcours ainsi qu'à l'arrivée (Solide + Liquide).
+                <br>
+                Le ravitaillement sera situé à mi-parcours et sera clairement indiqué. Il est interdit de jeter des déchets en dehors des zones prévues à cet effet.
+                <br>
+                Les coureurs devront prévoir un ravitaillement personnel suffisant entre deux ravitaillements prévus par l'organisation.
+                <br>
+                Chaque coureur doit dispoer de son propre gobelet. Aucun gobelet ne sera disponible sur les postes de ravitaillements.
+                <br>
+                6.6 Barrières horaires : 
                 <br>
                 - Sur le 15km : 11H30 à l'arrivée soit 6km/h de moyenne.
                 <br>
-                - Sur le 30km : 13H00 à l'arrivée soit 6,6km/h de moyenne.
-                <br>
-                6.6 Ravitaillements :
-                <br>
-                Le 15 km,se fera en autonomie, avec un ravitaillement à l'arrivée.
-                <br>
-                Pour le 30 km, un ravitaillement est prévu à mi-parcours ainsi qu’à l’arrivée (Solide + Liquide).
-                <br>
-                Les coureurs devront prévoir un ravitaillement personnel suffisant entre deux ravitaillements
-                prévus par l’organisation.
-                <br>
-                Chaque coureur doit disposer de son propre gobelet. Aucun gobelet ne sera disponible sur les
-                postes de ravitaillements.
+                - Sur le 30 km : 11 H 00 au ravitaillement soit au 15ème km / 14 H 00 à l’arrivée soit 5,5 km/h de moyenne.
             </p>
             <h4 class="reglement__subtitle">Article 7 : <strong>Matériel recommandé</strong></h4>
             <p class="information__reglement">
@@ -205,7 +217,7 @@ if (isset($_GET['section'])) {
                 12.1 Les organisateurs se réservent le droit de modifier le règlement en cas de besoin. Toute
                 modification sera communiquée sur le site officiel de l'événement.
             </p>
-            <h4 class="reglement__subtitle">Article 13 : <strong>Annulation (à valider avec le groupe)</strong></h4>
+            <h4 class="reglement__subtitle">Article 13 : <strong>Annulation</strong></h4>
             <p class="information__reglement">
                 13.1 Tout engagement est ferme et définitif ; aucun remboursement ne sera effectué en cas
                 d’annulation de la part d’un concurrent, peu importe la raison.
@@ -230,7 +242,7 @@ if (isset($_GET['section'])) {
             <h4 class="reglement__subtitle">Article 15 : <strong>Assurance</strong></h4>
             <p class="information__reglement">
                 15.1 <span class="lighterYellow">Responsabilité civile : les organisateurs sont couverts par une police d’assurance auprès
-                de XXX.</span>
+                de la FFA.</span>
                 <br>
                 15.2 Individuelle accident : les licenciés bénéficient des garanties accordées par l’assurance de
                 leur licence. Il incombe aux autres participants de s’assurer personnellement en souscrivant une
@@ -252,9 +264,20 @@ if (isset($_GET['section'])) {
                 16.4 Toute personne s’inscrivant à la course s’engage à prendre connaissance et à respecter le
                 règlement ci-dessus.
             </p>
+            <h4 class="reglement__subtitle">Article 17 : <strong>CNIL</strong></h4>
+            <p class="information__reglement">
+                17.1 Loi informatique et libertés.
+                Conformément à la loi du 06/01/1978, les participants disposent d’un droit d’accès et de
+                rectification des données personnelles.
+                <br>
+                17.2 Par l’intermédiaire des organisateurs, les participants peuvent être amenés à recevoir des
+                propositions d’autres sociétés ou associations.     
+                <br>
+                17.3 S’ils ne le souhaitent pas, il suffit de le communiquer par écrit aux organisateurs.
+            </p>
             <p class="information__reglement">Vous pouvez aussi retrouver le réglement en PDF ici : <a href="./assets/pdf/Réglement-X-TRAIL.pdf" target="_blank">PDF</a></p>
         </div>
-        <h3 class="information__title" id="results__title">Les résultats</h3>
+        <!-- <h3 class="information__title" id="results__title">Les résultats</h3>
         <p class="information__resultat">Résultat 2024 : <a href="#">PDF</a></p>
         <p class="information__resultat">Résultat 2025 : <a href="#">PDF</a></p>
         <p class="information__resultat">Résultat 2026 : <a href="#">PDF</a></p>
@@ -264,7 +287,7 @@ if (isset($_GET['section'])) {
         <p class="information__question">Puis-je retirer mon dossard le jour de la course? Oui, jusqu'à 7h45 maxi? ?</p>
         <p class="information__reponse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, molestiae.</p>
         <p class="information__question">Comment se rendre à Beaumont sur Oise pour le départ? Plans d'accès en véhicule comme en train ?</p>
-        <p class="information__reponse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, molestiae.</p>
+        <p class="information__reponse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, molestiae.</p> -->
     </main>
 
     <?php include ('./footer.php'); ?>

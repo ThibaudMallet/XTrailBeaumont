@@ -44,6 +44,28 @@
     padding: 1em;
 }
 
+.galerie__section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.galerie__subtitle {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.section__photos {
+    width: 100%;
+}
+
+.section__photo {
+    width: 90%;
+}
 
 @media (min-width: 900px) {
     .galerie__description {
